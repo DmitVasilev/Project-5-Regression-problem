@@ -4,11 +4,11 @@
 
 ##  <font color = #9ACD32> Содержание </font>
 
-[1. Введение](https://github.com/DmitVasilev/Project-_4_-ML#-1-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-)   
-[2. Описание задачи](https://github.com/DmitVasilev/Project-_4_-ML#2-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8)   
-[3. Описание данных](https://github.com/DmitVasilev/Project-_4_-ML#3-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)   
-[4. Результат](https://github.com/DmitVasilev/Project-_4_-ML#4-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)                  
-[5. Выводы](https://github.com/DmitVasilev/Project-_4_-ML#5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+[1. Введение](https://github.com/DmitVasilev/Project-5-Regression-problem#-1-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-)   
+[2. Описание задачи](https://github.com/DmitVasilev/Project-5-Regression-problem#2-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8)   
+[3. Описание данных](https://github.com/DmitVasilev/Project-5-Regression-problem#3-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)   
+[4. Результат](https://github.com/DmitVasilev/Project-5-Regression-problem#4-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)                  
+[5. Выводы](https://github.com/DmitVasilev/Project-5-Regression-problem#5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ### <font color = #9ACD32> 1. Введение </font>
 
@@ -22,7 +22,7 @@
 
 Решаемая задача была представлена в качестве Data Science-соревнования с призовым фондом в 30 000 $ на платформе Kaggle в 2017 году. 
                           
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-_4_-ML#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)  
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-5-Regression-problem#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)  
 
 ###  <font color = #9ACD32>2. Описание задачи</font>
 
@@ -32,15 +32,15 @@
 
 ОСНОВНЫЕ ЦЕЛИ:
 
-        Сформировать набор данных на основе нескольких источников информации.
-        Спроектировать новые признаки с помощью Feature Engineering и выявить наиболее значимые при построении модели.
-        Исследовать предоставленные данные и выявить закономерности.
-        Построить несколько моделей и выбрать из них ту, которая показывает наилучший результат по заданной метрике.
-        Спроектировать процесс предсказания длительности поездки для новых данных.
-        Загрузить своё решение на платформу Kaggle, тем самым поучаствовав в настоящем Data Science-соревновании.
+    Сформировать набор данных на основе нескольких источников информации.
+    Спроектировать новые признаки с помощью Feature Engineering и выявить наиболее значимые при построении модели.
+    Исследовать предоставленные данные и выявить закономерности.
+    Построить несколько моделей и выбрать из них ту, которая показывает наилучший результат по заданной метрике.
+    Спроектировать процесс предсказания длительности поездки для новых данных.
+    Загрузить своё решение на платформу Kaggle, тем самым поучаствовав в настоящем Data Science-соревновании.
 
 
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-_4_-ML#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)  
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-5-Regression-problem#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)  
                      
 ###  <font color = #9ACD32>3. Описание данных</font>
 
@@ -50,45 +50,45 @@
 
 Данные о клиенте и таксопарке:
 
-        id — уникальный идентификатор поездки;
-        vendor_id — уникальный идентификатор поставщика услуг (таксопарка), связанного с записью поездки.
+    id — уникальный идентификатор поездки;
+    vendor_id — уникальный идентификатор поставщика услуг (таксопарка), связанного с записью поездки.
 
 Временные характеристики:
 
-        pickup_datetime — дата и время, когда был включён счётчик поездки;
-        dropoff_datetime — дата и время, когда счётчик был отключён.
+    pickup_datetime — дата и время, когда был включён счётчик поездки;
+    dropoff_datetime — дата и время, когда счётчик был отключён.
 
 Географическая информация:
 
-        pickup_longitude — долгота, на которой был включён счётчик;
-        pickup_latitude — широта, на которой был включён счётчик;
-        dropoff_longitude — долгота, на которой счётчик был отключён;
-        dropoff_latitude — широта, на которой счётчик был отключён.
+    pickup_longitude — долгота, на которой был включён счётчик;
+    pickup_latitude — широта, на которой был включён счётчик;
+    dropoff_longitude — долгота, на которой счётчик был отключён;
+    dropoff_latitude — широта, на которой счётчик был отключён.
 
 Прочие признаки:
 
-        passenger_count — количество пассажиров в транспортном средстве (введённое водителем значение);
-        store_and_fwd_flag — флаг, который указывает, сохранилась ли запись о поездке в памяти транспортного средства перед отправкой поставщику (Y — хранить и пересылать, N — не хранить и не пересылать поездку).
+    passenger_count — количество пассажиров в транспортном средстве (введённое водителем значение);
+    store_and_fwd_flag — флаг, который указывает, сохранилась ли запись о поездке в памяти транспортного средства перед отправкой поставщику (Y — хранить и пересылать, N — не хранить и не пересылать поездку).
 
 Целевой признак:
 
-        trip_duration — продолжительность поездки в секундах.
+    trip_duration — продолжительность поездки в секундах.
                      
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-_4_-ML#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)   
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-5-Regression-problem#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)   
 
 
 
 ###  <font color = #9ACD32>4. Результат</font>
 
-Ноутбук с решением на GitHub: [Project_4_ML.ipynb](https://github.com/DmitVasilev/Project-_4_-ML/blob/95c158fb6df7cca03a6ea1a843e72b43a4631f79/Project_4_ML.ipynb).     
+Ноутбук с решением на GitHub: [project_5_NY_taxi.ipynb](https://github.com/DmitVasilev/Project-5-Regression-problem/blob/9c180447b100bcc3453398798bf5db79debf20a2/project-5_NY_taxi.ipynb).     
  
-Обеспечить воспроизводимость кода поможет файл requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project-_4_-ML/blob/95c158fb6df7cca03a6ea1a843e72b43a4631f79/requirements.txt). 
+Обеспечить воспроизводимость кода поможет файл requirements.txt: [requirements.txt](https://github.com/DmitVasilev/Project-5-Regression-problem/blob/9c180447b100bcc3453398798bf5db79debf20a2/requirements.txt). 
                         
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-_4_-ML#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)      
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-5-Regression-problem#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)      
 
 
 ###  <font color = #9ACD32>5. Выводы</font>
 
 Удалось решить задачу по прогнозированию длительности поездки на такси. Выполнено исследование данных, обработка пропущенных значений и выбросов. Проведена работа по расширению исходного набора данных на основе нескольких источников информации. Спроектированы новые признаки с помощью Feature Engineering. Проведен разведывательный анализ данных на предмет выявления закономерностей. Проведен отбор и преобразование наиболее значимых при построении модели признаков. Построено несколько базовых моделей (линейная регрессия в различных вариантах, дерево решений). Применены ансамблевые модели - модель случайного леса с подбором максимальной глубины деревьев, модель градиентного бустинга. Лучший результат показала модель градиентного бустинга над деревьями решений, результат сабмита на  Kaggle для данной модели Public score: 0.40216. В качестве бонуса опробованна модель экстремального градиентного бустинга (XGBoost) из библиотеки xgboost. Результат данной модели: Modeling RMSLE 0.39107.
                              
-:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-_4_-ML#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)   
+:arrow_up:[к содержанию](https://github.com/DmitVasilev/Project-5-Regression-problem#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-)   
